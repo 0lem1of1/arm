@@ -1,0 +1,61 @@
+[0.012s] Invoking command in '/home/the0lem/ws_moveit/src/arm_description/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/the0lem/ws_moveit/install/moveit_configs_utils:/home/the0lem/ws_moveit/install/launch_param_builder:/home/the0lem/ros2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/the0lem/ws_moveit/src/arm_description/build/arm_description -- -j20 -l20
+[0.061s] Invoked command in '/home/the0lem/ws_moveit/src/arm_description/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/the0lem/ws_moveit/install/moveit_configs_utils:/home/the0lem/ws_moveit/install/launch_param_builder:/home/the0lem/ros2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/the0lem/ws_moveit/src/arm_description/build/arm_description -- -j20 -l20
+[0.074s] Invoking command in '/home/the0lem/ws_moveit/src/arm_description/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/the0lem/ws_moveit/install/moveit_configs_utils:/home/the0lem/ws_moveit/install/launch_param_builder:/home/the0lem/ros2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/the0lem/ws_moveit/src/arm_description/build/arm_description
+[0.086s] -- Install configuration: ""
+[0.086s] -- Up-to-date: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/urdf
+[0.086s] -- Up-to-date: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/urdf/Arm.xacro
+[0.086s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes
+[0.086s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component43_1_1.stl
+[0.086s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/4390N154_Flanged_Ultra-Thin_Ball_Bearing__1__1_1.stl
+[0.087s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/4390N154_Flanged_Ultra-Thin_Ball_Bearing_1_1_1.stl
+[0.087s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Linear_Actuator_v3_1_1_1.stl
+[0.087s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Shaft_Coupler_1_1.stl
+[0.087s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component3_1_1.stl
+[0.087s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component16_1_1.stl
+[0.088s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component2_1_1.stl
+[0.088s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/upperlink-updated_v4_1_1_1.stl
+[0.090s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Shaft_Coupler_1_1_1.stl
+[0.090s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/4390N154_Flanged_Ultra-Thin_Ball_Bearing__1__1_1_1.stl
+[0.090s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/7806K757_Thrust_Ball_Bearing_1_1_1.stl
+[0.092s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Iteration_1_v5_1_1.stl
+[0.092s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component5_1_1.stl
+[0.092s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component5_1_1_1.stl
+[0.092s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Linear_Actuator_v3__1__1_1_1.stl
+[0.092s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Movable_Claw_1_1_1.stl
+[0.092s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/upperlink-updated_v4_1_1.stl
+[0.095s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component43_2_1_1.stl
+[0.095s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/SAR_base_v5_1_1_1.stl
+[0.095s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/97783A180_Fast-Travel_Ultra-Precision_Lead_Screw_1_1.stl
+[0.096s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Iteration_1_v5_1_1_1.stl
+[0.096s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/4390N154_Flanged_Ultra-Thin_Ball_Bearing_1_1.stl
+[0.097s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component4_1_1.stl
+[0.097s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component3_1_1_1.stl
+[0.097s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component16_1_1_1.stl
+[0.097s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Lead_Screw_Mount_1_1_1.stl
+[0.097s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component18_1_1_1.stl
+[0.097s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/4390N154_Flanged_Ultra-Thin_Ball_Bearing_2_1_1.stl
+[0.098s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/base_link.stl
+[0.098s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Linear_Actuator_v3_1_1.stl
+[0.098s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/lower_link_v39_1_1.stl
+[0.099s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Movable_Claw_1_1.stl
+[0.099s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Linear_Actuator_v3__1__1_1.stl
+[0.099s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component43_2_1.stl
+[0.099s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/7806K757_Thrust_Ball_Bearing_1_1.stl
+[0.100s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/4390N154_Flanged_Ultra-Thin_Ball_Bearing_2_1.stl
+[0.101s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component18_1_1.stl
+[0.101s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Lead_Screw_Mount_1_1.stl
+[0.101s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/KFL08_-_Mancal_Flange_oval_Э8_v1_1_1.stl
+[0.101s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/97783A180_Fast-Travel_Ultra-Precision_Lead_Screw_1_1_1.stl
+[0.102s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/SAR_base_v5_1_1.stl
+[0.102s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component43_1_1_1.stl
+[0.102s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/lower_link_v39_1_1_1.stl
+[0.102s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component4_1_1_1.stl
+[0.102s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/KFL08_-_Mancal_Flange_oval_Э8_v1_1_1_1.stl
+[0.102s] -- Installing: /home/the0lem/ws_moveit/src/arm_description/install/arm_description/share/arm_description/meshes/Component2_1_1_1.stl
+[0.103s] [31mCMake Error at cmake_install.cmake:54 (file):
+[0.103s]   file INSTALL cannot find
+[0.103s]   "/home/the0lem/ws_moveit/src/arm_description/launch": No such file or
+[0.103s]   directory.
+[0.103s] 
+[0.103s] [0m
+[0.104s] Invoked command in '/home/the0lem/ws_moveit/src/arm_description/build/arm_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/the0lem/ws_moveit/install/moveit_configs_utils:/home/the0lem/ws_moveit/install/launch_param_builder:/home/the0lem/ros2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/the0lem/ws_moveit/src/arm_description/build/arm_description

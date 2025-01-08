@@ -1,0 +1,37 @@
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+gripper_controller:
+  ros__parameters:
+    joints:
+      - Revolute 11
+      - Slider 10
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+arm_controller:
+  ros__parameters:
+    joints:
+      - Revolute 3
+      - Revolute 13
+      - Revolute 12
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity

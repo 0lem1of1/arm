@@ -1,0 +1,198 @@
+<?xml version="1.0" ?>
+<robot name="Arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find Arm_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find Arm_description)/urdf/Arm.trans" />
+<xacro:include filename="$(find Arm_description)/urdf/Arm.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.05863104008803087 0.05615253071623694 -0.006755654576515199" rpy="0 0 0"/>
+    <mass value="4.158186560469331"/>
+    <inertia ixx="0.011476" iyy="0.024475" izz="0.028778" ixy="3.8e-05" iyz="-0.000517" ixz="0.000125"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="SAR_base_v5_1_1">
+  <inertial>
+    <origin xyz="0.0032848504549910585 -0.0006395607193454139 0.054820590042331786" rpy="0 0 0"/>
+    <mass value="1.2307761265001584"/>
+    <inertia ixx="0.002811" iyy="0.002488" izz="0.003094" ixy="-1e-06" iyz="-2e-06" ixz="-0.00014"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.00392 -0.065323 -0.046301" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/SAR_base_v5_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.00392 -0.065323 -0.046301" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/SAR_base_v5_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="7806K757_Thrust_Ball_Bearing_1_1">
+  <inertial>
+    <origin xyz="0.0010133938642193077 -0.000780780546192697 0.03812329599421187" rpy="0 0 0"/>
+    <mass value="0.1611844314733173"/>
+    <inertia ixx="4e-05" iyy="4e-05" izz="7.3e-05" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.00392 -0.065323 -0.018461" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/7806K757_Thrust_Ball_Bearing_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.00392 -0.065323 -0.018461" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/7806K757_Thrust_Ball_Bearing_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Movable_Claw_1_1">
+  <inertial>
+    <origin xyz="0.03388991238375427 -0.01535562708110632 -0.006096587274510845" rpy="0 0 0"/>
+    <mass value="0.8451631580038678"/>
+    <inertia ixx="0.000295" iyy="0.001215" izz="0.001079" ixy="-7.9e-05" iyz="3.2e-05" ixz="0.000375"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.662651 -0.02824 -0.400362" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/Movable_Claw_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.662651 -0.02824 -0.400362" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/Movable_Claw_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Iteration_1_v5_1_1">
+  <inertial>
+    <origin xyz="0.04282769790372598 0.02491078728896462 -0.017160211944140247" rpy="0 0 0"/>
+    <mass value="2.3017928452014056"/>
+    <inertia ixx="0.015723" iyy="0.002985" izz="0.017484" ixy="-0.001325" iyz="0.000506" ixz="0.00084"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.625809 -0.061331 -0.422763" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/Iteration_1_v5_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.625809 -0.061331 -0.422763" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/Iteration_1_v5_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="upperlink-updated_v4_1_1">
+  <inertial>
+    <origin xyz="0.2908732258181451 -0.04359455738158811 -0.1129536992000853" rpy="0 0 0"/>
+    <mass value="1.2596257489986145"/>
+    <inertia ixx="0.006044" iyy="0.02669" izz="0.023747" ixy="0.000117" iyz="-5.3e-05" ixz="0.00924"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.232749 -0.105134 -0.580592" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/upperlink-updated_v4_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.232749 -0.105134 -0.580592" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/upperlink-updated_v4_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="lower_link_v39_1_1">
+  <inertial>
+    <origin xyz="0.09620535785687437 -0.051426121928776394 0.24687135655885625" rpy="0 0 0"/>
+    <mass value="3.5085367595940884"/>
+    <inertia ixx="0.069657" iyy="0.073832" izz="0.013911" ixy="2.6e-05" iyz="5e-05" ixz="-0.015569"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.03273 -0.115646 -0.126985" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/lower_link_v39_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.03273 -0.115646 -0.126985" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Arm_description/meshes/lower_link_v39_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rigid 2" type="fixed">
+  <origin xyz="0.0 0.0 0.02784" rpy="0 0 0"/>
+  <parent link="7806K757_Thrust_Ball_Bearing_1_1"/>
+  <child link="SAR_base_v5_1_1"/>
+</joint>
+
+<joint name="Revolute 3" type="continuous">
+  <origin xyz="0.00392 0.065323 0.018461" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="7806K757_Thrust_Ball_Bearing_1_1"/>
+  <axis xyz="0.0 -0.0 1.0"/>
+</joint>
+
+<joint name="Slider 10" type="prismatic">
+  <origin xyz="0.036842 -0.033091 -0.022401" rpy="0 0 0"/>
+  <parent link="Iteration_1_v5_1_1"/>
+  <child link="Movable_Claw_1_1"/>
+  <axis xyz="-0.00436 -0.99999 -0.0"/>
+  <limit upper="0.045" lower="-0.06" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 11" type="continuous">
+  <origin xyz="0.39306 -0.043803 -0.157829" rpy="0 0 0"/>
+  <parent link="upperlink-updated_v4_1_1"/>
+  <child link="Iteration_1_v5_1_1"/>
+  <axis xyz="0.927924 -0.004046 -0.372747"/>
+</joint>
+
+<joint name="Revolute 12" type="revolute">
+  <origin xyz="0.200019 -0.010512 0.453607" rpy="0 0 0"/>
+  <parent link="lower_link_v39_1_1"/>
+  <child link="upperlink-updated_v4_1_1"/>
+  <axis xyz="-0.00436 -0.99999 -0.0"/>
+  <limit upper="0.174533" lower="-0.872665" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 13" type="revolute">
+  <origin xyz="0.02881 0.050323 0.080684" rpy="0 0 0"/>
+  <parent link="SAR_base_v5_1_1"/>
+  <child link="lower_link_v39_1_1"/>
+  <axis xyz="-0.00436 -0.99999 -0.0"/>
+  <limit upper="1.047198" lower="-0.698132" effort="100" velocity="100"/>
+</joint>
+
+</robot>
